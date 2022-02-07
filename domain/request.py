@@ -10,6 +10,7 @@ class Request:
         self.latitude = 55.703118
         self.zoom = 15
         self.l = 'map'
+        self.type = 'PNG'
 
     def get_longitude(self):
         return self.longitude
