@@ -16,3 +16,13 @@ class Request:
 
     def get_l(self):
         return self.l
+
+    def up_zoom(self):
+        self.zoom += 1
+        if self.zoom > 17:
+            self.zoom = 17
+
+    def down_zoom(self):
+        self.zoom -= 1
+        if self.zoom < 0:
+            self.zoom = 0
